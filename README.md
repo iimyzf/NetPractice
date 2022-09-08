@@ -34,3 +34,18 @@
 ## What is TCP/IP?
 
   TCP/IP stands for **Transmission Control Protocol/Internet Protocol**, which is a set of rules that guide and allow computers to communicate on a network such as the internet.
+
+## What is the difference between TCP and IP?
+
+  * TCP and IP are two separate computer network protocols.
+  * IP is the part that **obtains the address** which the data is sent to, while TCP is the part that is responsible for **data delivery** once that IP address has been found.
+
+## How does TCP/IP exactly work?
+
+  TCP/IP job is to divide the different communication tasks into layers, each layer has a different function. Data goes through four individual layers before it is recieved on the other end, TCP/IP then goes through these layers in reverse to reassemble the data and represent it to the reciepent.
+  * The four layers of the TCP/IP model are:
+
+    * Datalink Layer: also called the physical layer, is what handles the physical parts of sending and recieving data using the Ethernet, or WiFi, etc...
+    * Internet Layer: also called the network layer, and it controls the movement of the packets around the internet.
+    * Transport Layer: is what provides a reliable data connection between two devices. it divides the data into packets, knows the packets that are recieved from the other device, and it makes sure that the other device knows the packets it recieves.
+    * Application Layer: is the group of the applications that requires a network communication, which is what the user typically interacts with, such as emails, and messaging, because the lower layer handles the details of communication, and there's no need for the applications to concern themselves with it.
