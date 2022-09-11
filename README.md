@@ -42,10 +42,22 @@
 
 ## How does TCP/IP exactly work?
 
-  TCP/IP job is to divide the different communication tasks into layers, each layer has a different function. Data goes through four individual layers before it is recieved on the other end, TCP/IP then goes through these layers in reverse to reassemble the data and represent it to the reciepent.
+  TCP/IP job is to **divide the different communication tasks into layers**, each layer has a different function. Data goes through **four individual layers** before it is recieved on the other end, TCP/IP then goes through these layers in **reverse** to reassemble the data and represent it to the reciepent.
   * The four layers of the TCP/IP model are:
 
-    * Datalink Layer: also called the physical layer, is what handles the physical parts of sending and recieving data using the Ethernet, or WiFi, etc...
-    * Internet Layer: also called the network layer, and it controls the movement of the packets around the internet.
-    * Transport Layer: is what provides a reliable data connection between two devices. it divides the data into packets, knows the packets that are recieved from the other device, and it makes sure that the other device knows the packets it recieves.
-    * Application Layer: is the group of the applications that requires a network communication, which is what the user typically interacts with, such as emails, and messaging, because the lower layer handles the details of communication, and there's no need for the applications to concern themselves with it.
+    * **Datalink Layer:** also called the physical layer, is what handles the physical parts of sending and recieving data using the Ethernet, or WiFi, etc...
+    * **Internet Layer:** also called the network layer, and it controls the movement of the packets around the internet.
+    * **Transport Layer:** is what provides a reliable data connection between two devices, it divides the data into packets, knows the packets that are recieved from the other device, and it makes sure that the other device knows the packets it recieves.
+    * **Application Layer:** is the group of the applications that requires a network communication, which is what the user typically interacts with, such as emails, and messaging, because the lower layer handles the details of communication, and there's no need for the applications to concern themselves with it.
+
+## What is a switch?
+
+  A switch is a device that **connects devices within the same network**, usually a `LAN network (which is a Local Area Network)`, and forwards data packets to and from those devices, *unlike a router*, **a switch** *only sends the data to the devices it is intended for* (which may be another switch, a router, or a user's computer).
+
+## What is a router?
+
+  A router is a device that **connects two or more packet-switched networks or subnetworks**, it serves two primary functions, managing the traffic between these networks by forwarding data packets to their intended IP addresses, and allowing multiple devices to use the same internet connection.
+
+## How does a router work?
+
+  A router's job is to **direct and guide** the packets that are sent so they get to their destination (which is their IP address) as efficiently as possible, and in order to send the packets effictively, a router uses an `internal routing table (which is a list of paths to various network destination)`, a router read a packet header to determine where it is heading to, then it consults with the routing table to decide *which path is the most efficient* so the packet reaches its destination.
