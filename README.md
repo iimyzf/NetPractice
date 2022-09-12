@@ -67,3 +67,7 @@
   A router forms networks, and manages the flow of data within and between those networks, while a modem connects those networks to the internet. In another way, *a router only connects the devices with each other to make a LAN between them all, but with no access to the internet, on the other hand, a modem can connect to one device only, but provides access to the internet.*
 
   And in order to make a LAN that connects to the internet, you should **combine both a modem and a router together**, so that the router connects all the devices while a modem give them access to the internet.
+
+## What is a subnet?
+
+  A **subnet or a subnetwork** is a *network inside a network*. Subnets make networks more efficient. Through subnetting, network traffic can travel a shorter distance without passing through unnecessary routes to reach its destination.
