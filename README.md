@@ -70,4 +70,6 @@
 
 ## What is a subnet?
 
-  A **subnet or a subnetwork** is a *network inside a network*. Subnets make networks more efficient. Through subnetting, network traffic can travel a shorter distance without passing through unnecessary routes to reach its destination.
+  A **subnet or a subnetwork** is a *network inside a network*. Subnets make networks more efficient.
+  
+  **Subnetting** is the process of stealing bits from the HOST part of IP address in order to divide the large network into smaller ones called subnets. After subnetting, we end up with **NETWORK SUBNET HOST** fields, and we always reserve an IP address to *identify the subnet* and another one to *identify the broadcast subnet address*, and through subnetting, network traffic can travel a shorter distance without passing through unnecessary routes to reach its destination.
