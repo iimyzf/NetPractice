@@ -1,4 +1,4 @@
-<img width="1149" alt="Level 2" src="https://user-images.githubusercontent.com/58959408/level1.png">
+<img width="1149" alt="Level 2" src="https://github.com/iimyzf/NetPractice/blob/main/2nd%20Level/level2.png">
 
 ## Level 2
 
