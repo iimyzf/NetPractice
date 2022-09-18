@@ -68,12 +68,31 @@
 
   And in order to make a LAN that connects to the internet, you should **combine both a modem and a router together**, so that the router connects all the devices while a modem give them access to the internet.
 
+## What is a loopback address?
+
+  A **loopback address** is an address that is built into the IP domain system in order to allow for a device to **send and receive its own data packets.** And it is a distinct reserved IP address range that `starts from 127.0.0.0 and ends at 127.255.255.255`, and its used for various kind of analysis, usually for *testing purposes and debugging*.
+
 ## What is a subnet?
 
   A **subnet or a subnetwork** is a *network inside a network*. Subnets make networks more efficient.
   
   **Subnetting** is the process of stealing bits from the HOST part of IP address in order to divide the large network into smaller ones called subnets. After subnetting, we end up with **NETWORK SUBNET HOST** fields, and we always reserve an IP address to *identify the subnet* and another one to *identify the broadcast subnet address*, and through subnetting, network traffic can travel a shorter distance without passing through unnecessary routes to reach its destination.
 
-## What is a loopback address?
+## How to calculate a subnet mask from IP address step by step?
 
-  A **loopback address** is an address that is built into the IP domain system in order to allow for a device to **send and receive its own data packets.** And it is a distinct reserved IP address range that `starts from 127.0.0.0 and ends at 127.255.255.255`, and its used for various kind of analysis, usually for *testing purposes and debugging*.
+  We will work with the IP address `10.20.4.13/29`
+
+  ### Step 1: Find Subnet Number:
+    Subtract prefix number from /32
+    32 - 29 = 3
+    
+    Calculate Subnet Mask:
+    8 bits - 3 bits = 5 bits (Network bits turned on)
+    
+    You might be asking why 8 bits, 8 bits are required for each octet.
+    
+    128     64      32      16      8     4     2     1
+    1       1       1       1       1     0     0     0
+    128 +   64 +    32 +    16 +    8     =     248
+    
+    Subnet Mask = 255.255.255.248
