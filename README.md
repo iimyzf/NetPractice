@@ -96,3 +96,36 @@
     128 +   64 +    32 +    16 +    8     =     248
     
     Subnet Mask = 255.255.255.248
+  
+  ### Step 2: Find Subnet Size:
+    Raise 2 to the power of deducation (8 - 3 = 5) -> Let's called it n.
+    
+    2 ** n    = Subnet Size.
+    2 ** 5    = Subnet Sizes for each subnet.
+    2 * 2 * 2 = 8
+    
+    NOTE: 8 is the block size for the subnet, so for example:
+    the increments will now be 0 8 16 32 40 and so on (we add 8 each time)
+    
+  ### Step 3: Find Broadcast Address:
+    Subnet size - 1
+    (2 ** n) - 1  = Broadcast Address
+    (2 ** 5) - 1  = (8 - 1) = 7
+  
+  ### Step 4: Locate IP Address Subnet:
+    Identify subnet block for IP address:
+    -> Where in each increment is the address 10.20.4.13/29 located (0 8 16 32 40)?
+    
+    13 falls between 8 and 16 and therefore the address is in the valid host range of the subnet 10.20.4.8/29
+  
+  ### Step 5: Calculate The Valid Hosts:
+    Subnet size - 2
+    (2 ** n) - 2 = Valid Host Range
+    (2 ** 3) - 2 = (8 - 2) = 6
+    
+  ### And from these steps, we can know 4 important things:
+    
+    Subnet Address    -> 10.20.4.8/29
+    Min Host Address  -> 10.20.4.9/29
+    Max Host Address  -> 10.20.4.14/29
+    Broadcast Address -> 10.20.4.15/29
