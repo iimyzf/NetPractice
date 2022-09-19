@@ -6,6 +6,36 @@
 
 > Since the project is a system administration related one, I'll document pretty much everything you need to know about the project from start to finish in this readme file, hope you find this usefull 😇
 
+## The topics we will discuss in this README are like this:
+
+  [✏︎ What is an IP?](what-is-an-ip)
+  
+  [✏︎ What are the types of an IP address](what-are-the-types-of-an-ip-address)
+  
+  [✏︎ What is the purpose of the IP addresses?](what-is-the-purpose-of-the-ip-addresses)
+  
+  [✏︎ What is the difference between the IPv4 and the IPv6?](what-is-the-difference-between-the-ipv4-and-the-ipv6)
+  
+  [✏︎ What is TCP/IP?](what-is-tcpip)
+  
+  [✏︎ What is the difference between TCP and IP?](what-is-the-difference-between-tcp-and-ip)
+  
+  [✏︎ How does TCP/IP exactly work?](how-does-tcpip-exactly-work)
+  
+  [✏︎ What is a switch?](what-is-a-switch)
+  
+  [✏︎ What is a router?](what-is-a-router)
+  
+  [✏︎ How does a router work?](how-does-a-router-work)
+  
+  [✏︎ What is the difference between a Modem and a Router?](what-is-the-difference-between-a-modem-and-a-router)
+  
+  [✏︎ What is a loopback address?](what-is-a-loopback-address)
+  
+  [✏︎ What is a subnet?](what-is-a-subnet)
+  
+  [✏︎ How to calculate a subnet mask from IP address step by step?](how-to-calculate-a-subnet-mask-from-ip-address-step-by-step)
+
 ## What is an IP?
 
   An IP address stands for **Internet Protocol Address**, which is a set of rules for communication over the internet, such as sending emails, streaming videos, or connecting to a website, etc..., an IP address identifies a network or a device on the internet.
