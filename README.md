@@ -4,37 +4,39 @@
 
 ## 💡 About the project
 
-> Since the project is a system administration related one, I'll document pretty much everything you need to know about the project from start to finish in this readme file, hope you find this usefull 😇
+> Since the project is a system administration-related one, I'll document pretty much everything you need to know about the project from start to finish in this readme file, hope you find this useful 😇
 
-## The topics we will discuss in this README are like this:
+> And of course, I might and will be mistaken for something, so please if there's a mistake or a misunderstanding, let me know by doing a pull request or just by a direct message! THANK YOU SO MUCH! **THANK YOU SO MUCH** ☺️
 
-  [✏︎ What is an IP?](#what-is-an-ip)
+## ✏︎  The topics we will discuss in this README are:
+
+  [∙ What is an IP?](#what-is-an-ip)
   
-  [✏︎ What are the types of an IP address](#what-are-the-types-of-an-ip-address)
+  [∙ What are the types of an IP address](#what-are-the-types-of-an-ip-address)
   
-  [✏︎ What is the purpose of the IP addresses?](#what-is-the-purpose-of-the-ip-addresses)
+  [∙ What is the purpose of the IP addresses?](#what-is-the-purpose-of-the-ip-addresses)
   
-  [✏︎ What is the difference between the IPv4 and the IPv6?](#what-is-the-difference-between-the-ipv4-and-the-ipv6)
+  [∙ What is the difference between the IPv4 and the IPv6?](#what-is-the-difference-between-the-ipv4-and-the-ipv6)
   
-  [✏︎ What is TCP/IP?](#what-is-tcpip)
+  [∙ What is TCP/IP?](#what-is-tcpip)
   
-  [✏︎ What is the difference between TCP and IP?](#what-is-the-difference-between-tcp-and-ip)
+  [∙ What is the difference between TCP and IP?](#what-is-the-difference-between-tcp-and-ip)
   
-  [✏︎ How does TCP/IP exactly work?](#how-does-tcpip-exactly-work)
+  [∙ How does TCP/IP exactly work?](#how-does-tcpip-exactly-work)
   
-  [✏︎ What is a switch?](#what-is-a-switch)
+  [∙ What is a switch?](#what-is-a-switch)
   
-  [✏︎ What is a router?](#what-is-a-router)
+  [∙ What is a router?](#what-is-a-router)
   
-  [✏︎ How does a router work?](#how-does-a-router-work)
+  [∙ How does a router work?](#how-does-a-router-work)
   
-  [✏︎ What is the difference between a Modem and a Router?](#what-is-the-difference-between-a-modem-and-a-router)
+  [∙ What is the difference between a Modem and a Router?](#what-is-the-difference-between-a-modem-and-a-router)
   
-  [✏︎ What is a loopback address?](#what-is-a-loopback-address)
+  [∙ What is a loopback address?](#what-is-a-loopback-address)
   
-  [✏︎ What is a subnet?](#what-is-a-subnet)
+  [∙ What is a subnet?](#what-is-a-subnet)
   
-  [✏︎ How to calculate a subnet mask from IP address step by step?](#how-to-calculate-a-subnet-mask-from-ip-address-step-by-step)
+  [∙ How to calculate a subnet mask from IP address step by step?](#how-to-calculate-a-subnet-mask-from-ip-address-step-by-step)
 
 ## What is an IP?
 
@@ -159,3 +161,8 @@
     Min Host Address  -> 10.20.4.9/29
     Max Host Address  -> 10.20.4.14/29
     Broadcast Address -> 10.20.4.15/29
+
+## YouTube playlists to help you understand more about networking and related stuff 😇
+
+  * https://www.youtube.com/watch?v=S7MNX_UD7vY&list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P
+  * https://www.youtube.com/watch?v=5WfiTHiU4x8&list=PLIhvC56v63IKrRHh3gvZZBAGvsvOhwrRF
