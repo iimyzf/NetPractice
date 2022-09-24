@@ -40,11 +40,9 @@
 
 ## What is an IP?
 
-  An IP address stands for **Internet Protocol Address**, which is a set of rules for communication over the internet, such as sending emails, streaming videos, or connecting to a website, etc..., an IP address identifies a network or a device on the internet.
-
-  An IP `(for example: 192.108.42.64)` got two important parts, which are:
-  1. **The Network ID:** which is the first 3 numbers of the IP address -> `(192.108.42)`
-  2. **The Host ID:** which is the last number of the IP address     -> `(64)`
+  An IP address stands for **Internet Protocol Address**, which is a set of rules for communication over the internet, such as sending emails, streaming videos, or connecting to a website, etc..., an IP address identifies a network or a device on the internet. And an IP address got two important parts, which are:
+  * **The Network ID**
+  * **The Host ID**
 
 ## What are the types of an IP address?
 
