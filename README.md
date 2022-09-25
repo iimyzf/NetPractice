@@ -144,7 +144,7 @@
   ### Step 3: Find Broadcast Address:
     Subnet size - 1
     (2 ** n) - 1  = Broadcast Address
-    (2 ** 5) - 1  = (8 - 1) = 7
+    (2 ** 3) - 1  = (8 - 1) = 7
   
   ### Step 4: Locate IP Address Subnet:
     Identify subnet block for IP address:
