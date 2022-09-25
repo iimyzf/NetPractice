@@ -135,7 +135,7 @@
     Raise 2 to the power of deducation (8 - 3 = 5) -> Let's called it n.
     
     2 ** n    = Subnet Size.
-    2 ** 5    = Subnet Sizes for each subnet.
+    2 ** 3    = Subnet Sizes for each subnet.
     2 * 2 * 2 = 8
     
     NOTE: 8 is the block size for the subnet, so for example:
