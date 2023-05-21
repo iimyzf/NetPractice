@@ -163,6 +163,17 @@
     Min Host Address  -> 10.20.4.9/29
     Max Host Address  -> 10.20.4.14/29
     Broadcast Address -> 10.20.4.15/29
+    
+
+## A command line utility that will help you understand more about Address Manupilation:
+
+    brew install ipcalc
+   
+   <p align="center">
+     <img width="497" alt="Screen Shot 2023-05-21 at 10 55 03 PM" src="https://github.com/iimyzf/NetPractice/assets/63506492/0faa87a2-922a-44fb-b86a-594cb8f9d798">
+   </p>
+
+
 
 ## YouTube playlists to help you understand more about networking and related stuff 😇
 
