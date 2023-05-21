@@ -139,7 +139,7 @@
     2 * 2 * 2 = 8
     
     NOTE: 8 is the block size for the subnet, so for example:
-    the increments will now be 0 8 16 32 40 and so on (we add 8 each time)
+    the increments will now be 0 8 16 24 32 and so on (we add 8 each time)
     
   ### Step 3: Find Broadcast Address:
     Subnet size - 1
